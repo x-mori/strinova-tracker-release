@@ -1,0 +1,25 @@
+name: Bug report
+description: Something in Strinova Tracker doesn't work or shows wrong stats
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown at the bottom of the Settings page, next to Strinova Tracker.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead. Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: The last lines of %LOCALAPPDATA%\StrinovaTracker\tracker.log, if relevant.
+      render: text
