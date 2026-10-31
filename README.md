@@ -11,7 +11,8 @@
 
 **A desktop stats tracker for Strinova.** It reads the match replays the game saves on your PC
 and turns them into a profile, a match history, full scoreboards and a round-by-round 2D theater.
-Nothing is uploaded, and the game itself is never touched.
+It can also show what you're playing on your Discord status. Nothing is uploaded, and the game
+itself is never touched.
 
 ### [⬇ Download the latest installer](https://github.com/x-mori/strinova-tracker-release/releases/latest)
 
@@ -89,6 +90,24 @@ and can download your older replays the game still lists, so your history keeps 
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+### 💬 Discord status
+Shows *Playing Strinova* on your Discord profile with no setup: queue, mode and map, the round
+and score, your character's icon with K/D/A on hover, your party size and a timer. Closing the
+window keeps the tracker in the system tray, so your status stays up.
+
+</td>
+<td valign="top">
+
+### 📡 Live match tracking <sub><sup>EXPERIMENTAL</sup></sub>
+Reads the game's screen while it's in front, from the lobby and character select through to the
+results, to fill in your Discord status as you play. It works in any client language. It's off by
+default: turn it on in **Settings → Tracking**. The game needs to run borderless or windowed at 16:9.
+
+</td>
+</tr>
 </table>
 
 ### ✨ NOVA Impact <sub><sup>EXPERIMENTAL</sup></sub>
@@ -139,6 +158,9 @@ It only:
 - reads replay files and the game's settings save file (for its list of replay download links)
 - takes the Windows process list, the same thing Task Manager shows, to see whether the game is running
 - reads the Windows UDP connection table, which is OS-wide like `netstat`, for the optional "in a match" indicator
+- with live match tracking on, takes a screenshot of the game window from the desktop, the same capture
+  PrintScreen makes. There are no hooks, overlays or injected code
+- talks to the Discord desktop app over Discord's standard local Rich Presence connection
 - downloads your own replays from Strinova's replay server, and public game data and icons
 
 > [!IMPORTANT]
@@ -156,6 +178,11 @@ and no analytics. The only internet use:
 | [strinova.org](https://strinova.org/wiki/) | character, map, weapon and rank data and art |
 | [lihaohong6/Strinova-data](https://github.com/lihaohong6/Strinova-data) | map, rank and upgrade tables |
 | [stringify.gg](https://stringify.gg) | Challenge tier icons, downloaded once |
+| [images.weserv.nl](https://images.weserv.nl) | Discord loads the round character badge on your status through this image proxy |
+
+Live match tracking reads its screenshots in memory and never uploads them. The only thing it
+keeps is the small scoreboard icon of each character you play, saved on your PC so it can recognise
+them later. Your Discord status goes only to the Discord app on your PC.
 
 ## Uninstall
 
