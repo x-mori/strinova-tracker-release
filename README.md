@@ -138,7 +138,8 @@ turn it on in **Settings → Appearance → Show NOVA Impact**.
 ### Getting started
 
 1. Open Strinova Tracker. It finds the game's `Saved` folder automatically. If you moved it,
-   set it in **Settings → Strinova Saved folder**.
+   set it in **Settings → Strinova Saved folder**. On first launch it also downloads character, map
+   and item data from the Strinova Wiki, which takes a few minutes.
 2. Play. To get a replay for a match, download it from the match history in-game. The tracker
    picks up new replays within a minute or so.
 3. Your accounts are detected from the replay file names. Switch between them in **Settings**.
