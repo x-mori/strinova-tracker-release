@@ -23,6 +23,8 @@
 - **Discord characters:** a character whose name couldn't be read before the match can now be learned from that match's replay, so it shows from then on. A new skin no longer clears your character at the start of a match.
 - **Discord updates:** a one-character misread map name could make Discord reject the whole status update. Character icons are also scaled down before Discord loads them, since some were over 1 MB.
 - **Challenge points:** *latest change* showed 0 after a Ranked match, and now shows your last real change. Replays save your score from when a match starts, so a Challenge match's result only appears with your next replay. The Challenge card now says when your last match hasn't been counted yet.
+- **Match page header:** the *Ranked* tag ran under the map name. The mode now sits above the map.
+- **Rank progress animation:** the glow on the star and division panels cut off partway and restarted. It now crosses the panel in one smooth sweep. The *At peak* badge's shimmer had a similar jump.
 
 ## 0.2.1: map names on Discord and round viewer icons
 
