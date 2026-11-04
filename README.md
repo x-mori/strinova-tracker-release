@@ -20,6 +20,19 @@ itself is never touched.
 
 ---
 
+## What's new in 0.2.2
+
+- **Player details:** click anyone on the Encounters tab for a spider chart of their traits, their stats and your history together.
+- **New look:** Encounters cards with full banners, bigger top character portraits, animated top bar icons and profile tabs with their own icons.
+- **Clearer mode names:** Challenge matches read *Demolition*, and Ranked matches read *Demolition* with a small *Ranked* tag.
+- **Weapon links:** signature weapons open their character's page.
+- **Discord status fixes:** maps like Lebrun City and characters that were sometimes missing now show up more reliably.
+- **Fixed filters and points:** the Encounters filters now work, and the Challenge card shows your real last change.
+
+See the [changelog](CHANGELOG.md) for everything in this update.
+
+---
+
 ## Features
 
 <table>
@@ -29,7 +42,8 @@ itself is never touched.
 ### 📊 Profile
 Current and peak **Ranked** and **Challenge** ranks on a whole-ladder strip, win rate, K/D, ADR,
 KAST, first kills, multi-kills, plants and defuses. Top characters, maps and weapons, where your
-hits land (head / body / legs), and the people you play with and against. Filter by mode and season.
+hits land (head / body / legs), and the people you play with and against. Click a player for a
+spider chart of their traits, their stats and your record together. Filter by mode and season.
 
 </td>
 <td width="50%" valign="top">

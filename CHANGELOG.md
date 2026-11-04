@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.2.2: player details and a new look
+
+### New
+
+- **Player details:** click anyone on the Encounters tab to open a popup with a spider chart of seven traits.
+  - **Traits:** Synergy (or Rivalry for opponents), Firepower, Survival, Entry, Consistency, Assistance and Cooperation. Each is a percentile against the other players in your selection, so 50 is the middle. Hover a trait to see the number behind it.
+  - **Stats:** their K/D, KDA, ADR, average score, KAST, headshot rate and more, your record with or against them, their most played characters and your recent shared matches.
+- **Weapon links:** clicking a signature weapon on the Weapons tab opens its character's page.
+
+### Changed
+
+- **Encounters:** players are now cards with their full banner fading out at the bottom, like the character pages.
+- **Mode names:** Challenge matches now read *Demolition*, since Challenge has several modes. Ranked matches read *Demolition* with a small *Ranked* tag beside it.
+- **Top characters:** the top 3 portraits are bigger and zoomed in, with a glowing halo on hover.
+- **Navigation:** the top bar has animated icons, with Settings moved to a gear on the right. The profile tabs now spread across the page with their own icons.
+
+### Fixed
+
+- **Encounters filters:** the mode and season buttons did nothing on this tab. They now filter the players shown.
+- **Discord map names:** one misread zone name could hide the map for a whole match or show the wrong one, which affected maps like Lebrun City. Zones now take a vote, and a wrong guess can correct itself during the match.
+- **Discord characters:** a character whose name couldn't be read before the match can now be learned from that match's replay, so it shows from then on. A new skin no longer clears your character at the start of a match.
+- **Discord updates:** a one-character misread map name could make Discord reject the whole status update. Character icons are also scaled down before Discord loads them, since some were over 1 MB.
+- **Challenge points:** *latest change* showed 0 after a Ranked match, and now shows your last real change. Replays save your score from when a match starts, so a Challenge match's result only appears with your next replay. The Challenge card now says when your last match hasn't been counted yet.
+
 ## 0.2.1: map names on Discord and round viewer icons
 
 ### Fixed
