@@ -15,7 +15,7 @@
   - **Melee:** each player's melee weapon now has a pill next to their grenades and skills, up to five pills in all.
   - **In hand:** a grenade, skill or melee weapon lights up while the player holds it, aims it or has just used it, like aiming Celestia's Guardian Star.
   - **Elevation:** a new pill under the distance travelled shows how high a player is, from `0 lv` (the lowest floor anyone stood on that match) to `12 lv` (the highest point anyone reached).
-  - **Knocked down:** a red pill counts down the 15 seconds a knocked player has before they're eliminated.
+  - **Knocked down:** a red pill counts down the 15 seconds a knocked player has before they're eliminated. It hides while a teammate revives them, since the game pauses the clock, and picks up where it left off if the revive fails.
   - **Name dot:** a glowing dot in the player's map colour sits before their name. Knocked and dead now show as icons.
 - **View cones flash:** with view cones on, a player's cone flashes white whenever they fire or swing a melee weapon.
 - **Audrey's Onslaught:** with her third awakening, Audrey's Champion never reloads, so her ammo shows as one number that counts down, like `450`.
