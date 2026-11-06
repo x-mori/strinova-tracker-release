@@ -1,5 +1,47 @@
 # Changelog
 
+## 0.2.3: round theater upgrades and in-app updates
+
+### New
+
+- **In-app updates:** the tracker checks for new versions when it starts and every few hours, and shows a reminder when one is out. Click **Update now** on the reminder, or go to **Settings → Updates**, to download it inside the app. The installer then opens by itself, with no trip to GitHub.
+  - **Safe downloads:** each installer is checked against the SHA-256 checksum published on its release before it runs, and only comes from GitHub's own download servers.
+  - **Settings → Updates:** shows your version, **Check now** and the release notes. Turn reminders off, or have new versions download in the background so installing takes one click. Installing always asks first.
+- **Damage numbers** (round theater, off by default): numbers float up beside each player as it happens. Red is HP lost, blue is armor lost, green is healing and pink is a shield gained, like Celestia's temporary armor. Quick hits of one kind add up in one number that counts up.
+- **Duels** (round theater, off by default): a line joins two enemies trading damage, in both players' colours, with each side's total for that fight in the middle. The side that just landed a hit flashes, and the line fades a few seconds after the shooting stops.
+- **Player cards in the round theater:**
+  - **Magazine size:** ammo reads like `30(30) / 220`, with the magazine size in small print. It goes up when a player buys a bigger magazine.
+  - **Gun in hand:** a small arrow marks the gun the player is holding.
+  - **Melee:** each player's melee weapon now has a pill next to their grenades and skills, up to five pills in all.
+  - **In hand:** a grenade, skill or melee weapon lights up while the player holds it, aims it or has just used it, like aiming Celestia's Guardian Star.
+  - **Elevation:** a new pill under the distance travelled shows how high a player is, from `0 lv` (the lowest floor anyone stood on that match) to `12 lv` (the highest point anyone reached).
+  - **Knocked down:** a red pill counts down the 15 seconds a knocked player has before they're eliminated.
+  - **Name dot:** a glowing dot in the player's map colour sits before their name. Knocked and dead now show as icons.
+- **View cones flash:** with view cones on, a player's cone flashes white whenever they fire or swing a melee weapon.
+- **Audrey's Onslaught:** with her third awakening, Audrey's Champion never reloads, so her ammo shows as one number that counts down, like `450`.
+
+### Changed
+
+- **Player colours:** the gun arrow, the in-hand highlights, the movement icons and the name dot follow each player's map colour, so they match **Multi-colored** trajectories too.
+- **Trajectory colours:** switching between Multi-colored and Team-colored in the theater now lasts for that session, without changing your saved setting or showing a notification.
+- **Upgrades and loadout:** a player's upgrade counts and their grenades and skills now fit on one row, and the cooldown timer sits neatly under its skill icon.
+- **Round result icons:** the elimination, defuse, time-expired and detonation icons share one badge design.
+- **Hovering players:** hovering a player on the theater map now always shows their card. A skill that follows the player keeps its own tooltip on its small icon beside the player.
+- **Kill feed weapons:** secondary weapons, melee weapons and grenades now point at the victim like primary weapons do.
+
+### Fixed
+
+- **Reload timers:** *Reloading* showed without its countdown after a game update. Every gun shows the time left again, and *Reloading* ends when the magazine is full instead of lasting until the next shot.
+- **Missing reloads:** back-to-back reloads were read as one, so many mid-match reloads didn't show. Every magazine change now shows.
+- **Shooting while reloading:** a player's shooting icon could stay lit while they reloaded.
+- **Outdated round data:** opening a match while the tracker was still reading replays could keep showing older data until you restarted. The theater now refreshes when reading finishes.
+- **Melee weapons:** only players who swung their melee weapon showed it. Every player's melee weapon now shows.
+- **Distance travelled:** long distances were cut off in their pill.
+
+### Note
+
+- Your archived matches are read again after updating, so reload times, elevation and melee weapons fill in for older matches too. This takes a few minutes the first time you open 0.2.3.
+
 ## 0.2.2: player details and a new look
 
 ### New

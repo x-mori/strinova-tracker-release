@@ -20,14 +20,13 @@ itself is never touched.
 
 ---
 
-## What's new in 0.2.2
+## What's new in 0.2.3
 
-- **Player details:** click anyone on the Encounters tab for a spider chart of their traits, their stats and your history together.
-- **New look:** Encounters cards with full banners, bigger top character portraits, animated top bar icons and profile tabs with their own icons.
-- **Clearer mode names:** Challenge matches read *Demolition*, and Ranked matches read *Demolition* with a small *Ranked* tag.
-- **Weapon links:** signature weapons open their character's page.
-- **Discord status fixes:** maps like Lebrun City and characters that were sometimes missing now show up more reliably.
-- **Fixed filters and points:** the Encounters filters now work, and the Challenge card shows your real last change.
+- **In-app updates:** the tracker tells you when a new version is out and installs it from inside the app. No more downloading from GitHub by hand.
+- **Damage numbers and duels:** two new round theater layers show damage, healing and shields as they happen, and who's fighting whom.
+- **Richer player cards:** magazine size, the gun in hand, melee weapons, a knocked-down countdown, elevation, and grenades or skills lighting up while they're held.
+- **Livelier map:** view cones flash on every shot and swing, and player highlights follow multi-colored trajectories.
+- **Reload fixes:** reload countdowns are back for every gun, and reloads no longer go missing mid-match.
 
 See the [changelog](CHANGELOG.md) for everything in this update.
 
@@ -75,9 +74,10 @@ skills used, an Attack / Defense split, stats per character, and the team-vs-tea
 <td valign="top">
 
 ### 🎬 Round theater
-Replay any round on the minimap: player positions and trails, HP and armor, weapons and ammo,
-grenade and skill areas, awakenings, bomb carrier, plant and defuse countdowns, revives and a
-timed kill feed. Scrub, change speed or go full screen.
+Replay any round on the minimap: player positions and trails, HP and armor, weapons, ammo and
+reloads, the gun or grenade in hand, grenade and skill areas, awakenings, bomb carrier, plant and
+defuse countdowns, revives and a timed kill feed. Turn on floating damage numbers and duel lines.
+Scrub, change speed or go full screen.
 
 </td>
 <td valign="top">
@@ -143,6 +143,9 @@ turn it on in **Settings → Appearance → Show NOVA Impact**.
 3. Windows SmartScreen may warn about an unrecognized app, because the installer isn't code-signed.
    Click **More info → Run anyway**. You can check the file against the SHA-256 checksum in the release notes.
 
+From 0.2.3 on, the tracker lets you know when a new version is out and can update itself:
+click the reminder, or use **Settings → Updates**.
+
 ### Requirements
 
 - Windows 10 or 11, 64-bit
@@ -176,7 +179,7 @@ It only:
 - with live match tracking on, takes a screenshot of the game window from the desktop, the same capture
   PrintScreen makes. There are no hooks, overlays or injected code
 - talks to the Discord desktop app over Discord's standard local Rich Presence connection
-- downloads your own replays from Strinova's replay server, and public game data and icons
+- downloads your own replays from Strinova's replay server, public game data and icons, and its own updates from GitHub
 
 > [!IMPORTANT]
 > This is a fan-made tool, provided as is. No third-party tool can promise how a game's anti-cheat
@@ -194,6 +197,7 @@ and no analytics. The only internet use:
 | [lihaohong6/Strinova-data](https://github.com/lihaohong6/Strinova-data) | map, rank and upgrade tables |
 | [stringify.gg](https://stringify.gg) | Challenge tier icons, downloaded once |
 | [images.weserv.nl](https://images.weserv.nl) | Discord loads the round character badge on your status through this image proxy |
+| [github.com](https://github.com/x-mori/strinova-tracker-release/releases) | checks for new versions (you can turn this off) and downloads the ones you choose to install |
 
 Live match tracking reads its screenshots in memory and never uploads them. The only thing it
 keeps is the small scoreboard icon of each character you play, saved on your PC so it can recognise
