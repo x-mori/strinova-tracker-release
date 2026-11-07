@@ -1,5 +1,45 @@
 # Changelog
 
+## 0.3.0: a scoreboard like the game's and a theater camera
+
+### New
+
+- **Scoreboard pages:** the scoreboard now has **Combat**, **Skill** and **Synergy** pages, like the game's own post-match screen.
+  - **Combat:** the stats you know, with the score shown to two decimals as the game keeps it.
+  - **Skill:** skill points, tactical and E uses, ultimates, damage dealt with character skills, and health and armor restored to teammates.
+  - **Synergy:** synergy points, damage taken as the game counts it, plants, defuses and teammates rescued.
+- **Halves:** buttons above the scoreboard switch between the **Full game**, the **1st half**, the **2nd half** and **Overtime**. Each shows your team's result in it and whether you were on attack or defense. Kills, damage, KAST, first kills, the game's scores and NOVA Impact all follow the half you pick, and so do the characters beside each name.
+- **Open a player from the scoreboard:** click any row to jump to that player on the Performance tab.
+- **Follow camera** (round theater): press **F** or the new button, and the map glides after the pinned player, or after you when no one is pinned. It snaps straight to them when you seek.
+- **Map rotation** (round theater): turn the map a quarter at a time with **[** and **]**, and press **N** or click the compass to bring north back up. The map swings round smoothly instead of jumping.
+- **Defuse progress:** the bomb panel shows the defuser, a progress bar and the seconds left. A defuse that stops part-way stays up with how far it got.
+- **Fragrans' Aroma Surge:** fields now show their mode, **HP recovery** or **Speed boost**.
+- **Backgrounds:** pick an app wallpaper in **Settings → Appearance**: the default, **Global Promotional** or **Season 26SP4**, both from the Strinova Wiki, under a dark wash so pages stay readable.
+
+### Changed
+
+- **Skill areas:** a skill's area now grows with the range upgrade its caster bought that round, like Fragrans' Aroma Surge. Hover the area to see the upgrade.
+- **Copies of one skill:** several of the same object, like Mirage clones or Pawtectors, share one segmented health bar on the player card.
+- **Zoom:** the theater's zoom slider moves evenly from 1× to 8×, and the map controls are grouped into zoom, rotation and camera.
+- **Full screen:** the theater in full screen now covers always-on-top desktop widgets too, but only while it's the active window. Switching to another app drops it back behind.
+- **Duels tab:** headline match-ups face off over a split bar, and the head-to-head grid uses tiles coloured by the net result, with totals for every player.
+- **Economy tab:** each player's build shows as fixed upgrade slots (weapon, skills, defense), with this round's buys highlighted and A or B on each slot. Credits read as start → end with what was spent and earned, and the chart lines are smoother.
+- **Performance tab:** *Versus opponents* shows kills and deaths as a tug bar, *Characters played* gets character art and ADR, and damage against each opponent is one dealt / received bar.
+- **Spectators:** the spectator popup draws each person's watching sessions on a timeline of the replay.
+- **NOVA Impact:** the card splits momentum into one bar by category, draws round impact as columns above and below zero, and has its own icon for every kind of play.
+- **Icons:** the match tabs and the minimap legend have new icons that match the map's own markers.
+- **Faster pages:** the profile page is kept between visits and only rebuilt when your matches, filters or game data change. Round theater playback redraws only the parts of a player card that changed, so it runs smoother.
+
+### Fixed
+
+- **Ammo glitches:** a replay glitch could briefly move rounds from the reserve into the magazine and back, which showed as a fake reload and could inflate the magazine size. These are now ignored.
+- **Missing reloads:** a gun far from the player who recorded the replay could skip its reload entirely, so the magazine just jumped up. These reloads now show, timed like that gun's usual reload.
+- **Kill causes:** a knocked player who bled out was listed as killed by *other*. The kill now goes to whatever knocked them down.
+
+### Note
+
+- Your archived matches are read again after updating, so the Skill and Synergy pages, halves and rescues fill in for older matches too. This takes a few minutes the first time you open 0.3.0.
+
 ## 0.2.3: round theater upgrades and in-app updates
 
 ### New

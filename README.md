@@ -20,13 +20,13 @@ itself is never touched.
 
 ---
 
-## What's new in 0.2.3
+## What's new in 0.3.0
 
-- **In-app updates:** the tracker tells you when a new version is out and installs it from inside the app. No more downloading from GitHub by hand.
-- **Damage numbers and duels:** two new round theater layers show damage, healing and shields as they happen, and who's fighting whom.
-- **Richer player cards:** magazine size, the gun in hand, melee weapons, a knocked-down countdown, elevation, and grenades or skills lighting up while they're held.
-- **Livelier map:** view cones flash on every shot and swing, and player highlights follow multi-colored trajectories.
-- **Reload fixes:** reload countdowns are back for every gun, and reloads no longer go missing mid-match.
+- **Scoreboard like the game's:** Combat, Skill and Synergy pages with the game's own score split, skill uses, healing, damage taken and rescues.
+- **Halves:** see the full game, either half or overtime on its own, with your side and result for each.
+- **Theater camera:** a follow camera that tracks a player, map rotation, and a defuse progress bar.
+- **Fresh looks:** redesigned Duels, Economy and Performance tabs, and wallpapers from the Strinova Wiki.
+- **Fixes:** no more fake reloads from ammo glitches, reloads far from you show up, and bleed-out kills credit what knocked the player down.
 
 See the [changelog](CHANGELOG.md) for everything in this update.
 
@@ -58,8 +58,8 @@ Filter by mode, map, character or achievement. Overtime matches are tagged.
 
 ### 🏆 Full scoreboards
 Score, K / knock-downs / D / A, ADR, damage, headshot hits, first kills and deaths, multi-kills
-and KAST for all ten players, with ranks, characters played, team average ranks and match
-achievements such as clutches and aces.
+and KAST for all ten players, plus the game's Skill and Synergy pages, for the full game or any
+half. With ranks, characters played, team average ranks and achievements such as clutches and aces.
 
 </td>
 <td valign="top">
@@ -77,7 +77,7 @@ skills used, an Attack / Defense split, stats per character, and the team-vs-tea
 Replay any round on the minimap: player positions and trails, HP and armor, weapons, ammo and
 reloads, the gun or grenade in hand, grenade and skill areas, awakenings, bomb carrier, plant and
 defuse countdowns, revives and a timed kill feed. Turn on floating damage numbers and duel lines.
-Scrub, change speed or go full screen.
+Scrub, change speed, zoom, rotate the map, follow a player or go full screen.
 
 </td>
 <td valign="top">
