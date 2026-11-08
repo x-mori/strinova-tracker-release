@@ -20,13 +20,13 @@ itself is never touched.
 
 ---
 
-## What's new in 0.3.0
+## What's new in 0.3.1
 
-- **Scoreboard like the game's:** Combat, Skill and Synergy pages with the game's own score split, skill uses, healing, damage taken and rescues.
-- **Halves:** see the full game, either half or overtime on its own, with your side and result for each.
-- **Theater camera:** a follow camera that tracks a player, map rotation, and a defuse progress bar.
-- **Fresh looks:** redesigned Duels, Economy and Performance tabs, and wallpapers from the Strinova Wiki.
-- **Fixes:** no more fake reloads from ammo glitches, reloads far from you show up, and bleed-out kills credit what knocked the player down.
+- **Team Arena and Team Deathmatch pages:** Equipment and a full-match Replay tab with live team scores, instead of Economy and Rounds.
+- **Teams A, B and C:** Team Deathmatch's three teams throughout the match pages, with all three scores in your match list.
+- **Bots:** bot players are tagged and counted, and left out of the people you play with.
+- **Theater details:** scope zoom while scoped in, fire modes, damage numbers that count up, and a fuse bar on the bomb panel.
+- **Fixes:** Team Deathmatch warmup kills no longer count, so totals match the game, and day totals no longer inflate ADR.
 
 See the [changelog](CHANGELOG.md) for everything in this update.
 

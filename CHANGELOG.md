@@ -1,5 +1,42 @@
 # Changelog
 
+## 0.3.1: Team Arena and Team Deathmatch get their own match pages
+
+### New
+
+- **Team Arena and Team Deathmatch pages:** these modes have no rounds or credits, so their match page now fits how they play. **Equipment** and **Replay** take the place of Economy and Rounds, and the columns, pages and panels that only make sense with rounds or a bomb are gone.
+- **Equipment tab:** every player's final upgrades, then each change with its time: the build picked at spawn, swaps during the match, and changes made in the warmup.
+- **Replay tab:** the whole match as one playback, with the final results, the full kill feed and the minimap. Open it in the theater for the full view:
+  - **Live score:** the team scores tick up in the header as the replay plays.
+  - **Live cards:** each player's kills, deaths, damage and upgrades update as the match goes on.
+  - **Respawns:** death marks fade after 10 seconds and trails restart at each respawn, so the map stays readable for the whole match.
+- **Teams A, B and C:** Team Deathmatch's three teams of five each get their own scoreboard section and score, with the second enemy team in its own colour. The match list, match header, theater, Performance and Duels tabs all follow them.
+- **Bot detection:** players the replay flags as bots get a **Bot** tag, and the match list and match header count them. They're left out of *people you play with and against*. Rank averages use real players, and a team of only bots averages the bots' ranks.
+- **Scope zoom** (theater): a tiny pill on the primary weapon's art shows its zoom while that player is scoped in. Weapons that switch zoom show their range with the current level lit, like Dawn at 1.5–2.5×, Champion and Calibrator at 1.25–2×, and Finale and Quasar at 2.5–4× with their High-zoom scope upgrade.
+- **Fire modes** (theater): a pill beside it shows the current mode on weapons that have more than one, like Polaris (Auto or 3-burst), Judge and Maple Resonance (Auto or Semi), or Rainveil's 5-burst upgrade. Replays record each press of the switch key but not its result, so zoom and fire mode follow the presses since that player last spawned.
+
+### Changed
+
+- **Match list:** Team Arena and Team Deathmatch rows show your damage and headshot rate instead of ADR and KAST, how many players were bots, and no NOVA Impact. Team Deathmatch rows show all three team scores.
+- **Scoreboard:** Team Arena and Team Deathmatch show the Combat stats that apply to them, without the Skill and Synergy pages.
+- **Performance tab:** Team Deathmatch's player picker has a VS between each of the three teams.
+- **Damage numbers** (theater): floating numbers, duel totals and the damage on team cards count up smoothly, and read exactly when paused.
+- **Bomb panel** (theater): one bar fills over the fuse and a running defuse takes it over. Defused and Detonated now look the same, with the result beside the bomb icon and the defuser's avatar on it after a defuse.
+- **Distance travelled** (theater): switches to kilometres past 1000 m.
+- **Ultimates** (theater): Team Deathmatch has none, so player cards show only the active skill.
+- **Theater footer:** the keyboard hints and map legend share one line, and the legend drops keys that don't apply to the mode.
+- **Smoother theater:** playback only touches the feed rows, death marks and skill markers that changed, so a whole match plays as smoothly as a round.
+
+### Fixed
+
+- **Warmup kills:** Team Deathmatch's warmup was counted in kills, deaths and damage breakdowns. Totals now match the in-game scoreboard, and Team Arena and Team Deathmatch replays start when play goes live.
+- **Day totals:** ADR and delta per round divided damage from Team Arena and Team Deathmatch by Demolition rounds only, which inflated them. They now use matches with rounds, and days without any show total damage and delta.
+- **Discord status:** a Team Deathmatch result could show the wrong score. It now shows your team's score against the best other team.
+
+### Note
+
+- Your archived matches are read again after updating, so bots, teams, equipment and scope timings fill in for older matches too. This takes a few minutes the first time you open 0.3.1.
+
 ## 0.3.0: a scoreboard like the game's and a theater camera
 
 ### New
