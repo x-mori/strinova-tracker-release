@@ -1,5 +1,48 @@
 # Changelog
 
+## 0.3.2: a new look, richer map pages and Lilith
+
+### New
+
+- **Lilith:** the Crystalline joins the character list, marked as an **Outbreak character**. Her page has her skills, her Whip's damage, her health and armor by level, and her voice cast.
+- **Map tools:** map pages get the theater's zoom, pan and rotate.
+- **New map layers:** alongside kills and deaths, you can now show:
+  - **Ability uses:** where you stood when you used your skills, ultimates included.
+  - **Throwables:** where every kind landed, from bought grenades to each character's own tactical.
+  - **Plants and defuses:** where you did them.
+- **Map dot tooltips:** hover a dot to see the character, what happened, the kind of match (Demolition, Demolition Ranked, Team Deathmatch and so on), the date, the round and the time.
+- **More on map pages:** a description of each map, your attack and defense records, and your fight ranges.
+- **Weapon damage tables:** character pages show each weapon's damage at set ranges, beside its art.
+- **Voice cast:** each actor has a flag for their language, a link to their page where one could be confirmed, and their name in Japanese or Chinese script.
+- **Trades and Flanks** (theater): two new map layers.
+
+### Changed
+
+- **Profile banner:** redesigned as an operator file, with your stats on a string and your avatar fading into the banner.
+- **Overview panel:** a win-loss tension line and its own set of icons.
+- **Character list and pages:** reworked in the same style, with a shorter dossier, skills and awakenings in even rows, and skill values tagged with icons, units and a colour for each kind.
+- **Portraits:** every character is framed to the same size with their head at the same height.
+- **Map pages and Profile tabs:** map pages are reworked in the same style, and the Characters, Weapons and Maps tabs on your profile are restyled to match.
+- **Settings:** reworked with a side menu and setting tiles.
+- **Credits and loading screen:** both reworked. The loading screen has a turning logo and a string that shows real progress.
+- **Taskbar:** clicking the app on the taskbar while it's open now minimizes it with the normal Windows animation.
+- **Theater:**
+  - HP and armor bars ease the way the damage numbers do.
+  - The in-hand arrow only makes room on the held weapon, and slides between rows.
+  - The map pill is darkened all the way to its edges.
+  - The bomb popup stays up after the round ends.
+  - The planted bomb flashes on the map with no circle behind it.
+- **Rounds tab:** the kill feed scrolls.
+
+### Fixed
+
+- **Match list:** Team Arena and Team Deathmatch rows left an empty gap where NOVA Impact would be, which pushed the details onto extra lines. The map, details and score now use that space.
+- **Weapons tab:** weapons with no hits no longer draw grey blocks.
+
+### Note
+
+- Character data and portraits refresh once the first time you open 0.3.2, which can take a few minutes. Your matches aren't read again.
+
 ## 0.3.1: Team Arena and Team Deathmatch get their own match pages
 
 ### New

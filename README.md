@@ -20,13 +20,13 @@ itself is never touched.
 
 ---
 
-## What's new in 0.3.1
+## What's new in 0.3.2
 
-- **Team Arena and Team Deathmatch pages:** Equipment and a full-match Replay tab with live team scores, instead of Economy and Rounds.
-- **Teams A, B and C:** Team Deathmatch's three teams throughout the match pages, with all three scores in your match list.
-- **Bots:** bot players are tagged and counted, and left out of the people you play with.
-- **Theater details:** scope zoom while scoped in, fire modes, damage numbers that count up, and a fuse bar on the bomb panel.
-- **Fixes:** Team Deathmatch warmup kills no longer count, so totals match the game, and day totals no longer inflate ADR.
+- **Lilith:** the Crystalline joins the character list as an Outbreak character, with her own page.
+- **A new look:** the Profile banner, character list and pages, map pages, Settings, Credits and the loading screen are all reworked, and every portrait is framed to the same size.
+- **Map pages:** zoom, pan and rotate, new layers for ability uses, throwables, plants and defuses, and a tooltip on every dot.
+- **Character pages:** weapon damage by range, and voice casts with flags and links.
+- **Theater details:** Trades and Flanks layers, smoother HP and armor bars, and a bomb popup that stays after the round ends.
 
 See the [changelog](CHANGELOG.md) for everything in this update.
 
