@@ -1,5 +1,54 @@
 # Changelog
 
+## 0.4.0: themes, light mode, the replay viewer and Escort
+
+### New
+
+- **Light and dark modes:** switch with the sun and moon button in the top bar, or choose **System**, **Dark** or **Light** in Settings > Appearance. System follows Windows' app mode. The theater and maps stay dark either way.
+- **Aesthetic and Futuristic themes:** two custom themes in Settings > Appearance, each with its own colours, accent, background and fonts, Japanese text included:
+  - **Aesthetic:** warm cream with dusty rose and sage, serif titles and rounded text, over the Teatime Delight wallpaper.
+  - **Futuristic:** near-black glass with neon cyan and magenta, Orbitron titles and a faint HUD grid, over the Galactic Express wallpaper.
+- **Season 26SP6 · String Sea Starsong:** the new season is in the season filters, and its key art is a new background.
+- **Season rank reset:** after a new season starts, your ranked rank shows 5 divisions lower and your challenge rank is cleared, as the game does. Your next replay from the new season shows your exact rank.
+- **Replay viewer:** a new **Viewer** tab opens anyone's replays. Pick one or more .replay files, or .zip archives holding them:
+  - They're kept in their own folder and database, apart from your matches and stats.
+  - They get the same match pages, theater and filters as your own matches.
+  - Your accounts are tagged **You**. A match none of your accounts played is seen from whoever recorded it, with the teams named by letter.
+  - Renamed files get their real names back from the replay itself.
+- **Escort:**
+  - The vehicle and its route on the map, with a hover card.
+  - Checkpoints in the theater header, and a box when the vehicle nears the next one.
+  - Push and block clocks on player cards and in the scoreboard.
+  - Replays start after the prep time.
+- **Kill streaks** (Team Deathmatch, Team Arena and Escort): a burning flame before the name from 3 kills back-to-back. It's red at 3, orange at 4 and blue from 5, and turns into an iridescent **Wildfire** flame from 7.
+- **Achievement tags for Team Deathmatch, Team Arena and Escort:** flame streaks, Survivor, Untouchable, Comeback, Engine, Gatekeeper, Rollback, Team wipe and more, under a new **Uncommon** tier in dark lime.
+- **Theater:**
+  - Every player card shows their ping.
+  - Each gun shows its damage to head, torso and legs, climbing as the round plays. Click a gun to see the split.
+  - Bomb plants show as they happen, with failed and interrupted attempts counted.
+  - In modes where the dead come back, they show a respawn countdown.
+  - Fuchsia's Second Wind gets a self-revive countdown, and her A2 shows like other awakenings.
+  - Character swaps in Team Deathmatch, Team Arena and Escort switch avatars live, and list in the order played.
+  - Skills get their own Multi or Team colour toggle.
+
+### Changed
+
+- **Encounter modal:** rebuilt over the player's avatar, with its panels in two columns.
+- **Theater player cards:** an embed-style colour stripe instead of the dot, the **You** tag on the avatar, kill distances to one decimal, and smaller weapon names.
+- **Faster:** replays are read about a fifth faster with the same results, and the profile and match list are cached.
+- **Window:** opens larger so the tab icons show, sized to fit your screen.
+- **Modes without knock-downs** (Team Deathmatch, Team Arena and Escort) no longer show KO columns.
+
+### Fixed
+
+- **Escort:** per-character stats no longer read zero, and the end-of-match reset no longer changes a player's character order.
+- **Player names:** decorations no font can draw, which showed as boxes, are removed.
+- **Top bar:** on narrower windows the close button no longer slips out of view.
+
+### Note
+
+- Your matches are read again once the first time you open 0.4.0, for Escort and the new theater details. It can take a few minutes, and the app stays usable while it runs.
+
 ## 0.3.2: a new look, richer map pages and Lilith
 
 ### New

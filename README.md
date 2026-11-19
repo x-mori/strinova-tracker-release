@@ -20,13 +20,14 @@ itself is never touched.
 
 ---
 
-## What's new in 0.3.2
+## What's new in 0.4.0
 
-- **Lilith:** the Crystalline joins the character list as an Outbreak character, with her own page.
-- **A new look:** the Profile banner, character list and pages, map pages, Settings, Credits and the loading screen are all reworked, and every portrait is framed to the same size.
-- **Map pages:** zoom, pan and rotate, new layers for ability uses, throwables, plants and defuses, and a tooltip on every dot.
-- **Character pages:** weapon damage by range, and voice casts with flags and links.
-- **Theater details:** Trades and Flanks layers, smoother HP and armor bars, and a bomb popup that stays after the round ends.
+- **Themes:** light and dark modes, plus the **Aesthetic** and **Futuristic** themes, each with its own colours, background and fonts.
+- **Replay viewer:** open anyone's replays, or zips of them, in a new Viewer tab, kept apart from your own matches and stats.
+- **Season 26SP6:** String Sea Starsong in the season filters, a new background, and the season's rank reset on your rank cards.
+- **Escort:** the vehicle and its route on the map, checkpoints, and push and block clocks.
+- **Theater:** ping, damage by body part on each gun, bomb plants as they happen, respawn countdowns, and kill-streak flames up to Wildfire.
+- **New achievement tags** for Team Deathmatch, Team Arena and Escort, with a new Uncommon tier.
 
 See the [changelog](CHANGELOG.md) for everything in this update.
 
@@ -248,7 +249,7 @@ The app's log, `%LOCALAPPDATA%\StrinovaTracker\tracker.log`, helps a lot with bu
 - [lihaohong6/Strinova-data](https://github.com/lihaohong6/Strinova-data): the game tables the wiki is built from.
 - [stringify.gg](https://stringify.gg): Challenge tier icons.
 - [StrinovaHUB](https://strinovahub.com/): inspiration for the round theater.
-- [Chakra Petch](https://fonts.google.com/specimen/Chakra+Petch) and [Inter](https://rsms.me/inter/) fonts, under the SIL Open Font License.
+- [Chakra Petch](https://fonts.google.com/specimen/Chakra+Petch) and [Inter](https://rsms.me/inter/) fonts, and for the themes [Playfair Display](https://fonts.google.com/specimen/Playfair+Display), [Nunito](https://fonts.google.com/specimen/Nunito), [Zen Maru Gothic](https://fonts.google.com/specimen/Zen+Maru+Gothic), [Orbitron](https://fonts.google.com/specimen/Orbitron), [Exo 2](https://fonts.google.com/specimen/Exo+2) and [M PLUS 1](https://fonts.google.com/specimen/M+PLUS+1), all under the SIL Open Font License.
 
 <div align="center">
 
