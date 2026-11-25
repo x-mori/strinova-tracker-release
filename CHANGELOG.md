@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.4.1: Lawine's Stealth Master, character names and steadier panels
+
+### New
+
+- **Lawine's Stealth Master** (theater): its 50 m by 6 m strip shows on the map, running from where she cast it in the direction she faced. Her avatar fades while she's inside it.
+
+### Changed
+
+- **Character select** (Discord status): short Japanese names are read more reliably, including Mara's, Nora's, Ming's and Nobunaga's.
+
+### Fixed
+
+- **Startup:** an empty or damaged settings file no longer stops the app from opening. Settings are now saved in a way that can't leave one behind, and the last good copy is kept as a backup.
+- **Panels:** cards that lift when hovered no longer jiggle with the pointer near their edges or corners.
+
+### Note
+
+- Your matches are read again once the first time you open 0.4.1, for Lawine's ultimate. It can take a few minutes, and the app stays usable while it runs.
+
 ## 0.4.0: themes, light mode, the replay viewer and Escort
 
 ### New

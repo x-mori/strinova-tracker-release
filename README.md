@@ -20,14 +20,11 @@ itself is never touched.
 
 ---
 
-## What's new in 0.4.0
+## What's new in 0.4.1
 
-- **Themes:** light and dark modes, plus the **Aesthetic** and **Futuristic** themes, each with its own colours, background and fonts.
-- **Replay viewer:** open anyone's replays, or zips of them, in a new Viewer tab, kept apart from your own matches and stats.
-- **Season 26SP6:** String Sea Starsong in the season filters, a new background, and the season's rank reset on your rank cards.
-- **Escort:** the vehicle and its route on the map, checkpoints, and push and block clocks.
-- **Theater:** ping, damage by body part on each gun, bomb plants as they happen, respawn countdowns, and kill-streak flames up to Wildfire.
-- **New achievement tags** for Team Deathmatch, Team Arena and Escort, with a new Uncommon tier.
+- **Lawine's Stealth Master** shows its strip on the theater map, and her avatar fades while she's inside it.
+- **Character select:** short Japanese names like Mara's and Nora's are read more reliably for your Discord status.
+- **Fixed:** a damaged settings file no longer stops the app from opening, and hovered panels no longer jiggle at their edges.
 
 See the [changelog](CHANGELOG.md) for everything in this update.
 
