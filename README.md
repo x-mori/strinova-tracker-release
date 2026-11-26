@@ -20,11 +20,12 @@ itself is never touched.
 
 ---
 
-## What's new in 0.4.1
+## What's new in 0.4.2
 
-- **Lawine's Stealth Master** shows its strip on the theater map, and her avatar fades while she's inside it.
-- **Character select:** short Japanese names like Mara's and Nora's are read more reliably for your Discord status.
-- **Fixed:** a damaged settings file no longer stops the app from opening, and hovered panels no longer jiggle at their edges.
+- **Conquest:** zones on the theater map, the zone in play and each team's progress to 200, hold time, a zone control card and new achievement tags.
+- **Pixel theme:** an 80s arcade on VHS, with pixel fonts and icons, scanlines and rising embers. A new theme picker previews every theme.
+- **Replay and Rounds tables** follow the map as it plays, and full-match modes get damage per opponent and weapon.
+- **Each custom theme** has its own team colours, the Demolition modes share one chip, and the Discord status shows **In Game** outside Demolition.
 
 See the [changelog](CHANGELOG.md) for everything in this update.
 

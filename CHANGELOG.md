@@ -1,5 +1,46 @@
 # Changelog
 
+## 0.4.2: Conquest, the Pixel theme and replay tables that follow the map
+
+### New
+
+- **Conquest:**
+  - Zones on the theater map: every zone's area, the open one coloured by the team holding it and the next one pulsing, each with a numbered marker and a hover card.
+  - The theater header shows the zone in play, both teams' progress to 200 points and the no-score clock. A box in the map's corner counts down to the zone closing or the next one opening.
+  - Hold time on player cards, in the scoreboard and in the profile's game stats.
+  - A **Zone control** card on the scoreboard: each team's progress, and every zone with the points each team took there.
+  - Achievement tags: **Anchor**, **Lockdown** and **Zone breaker**. Streaks and the other Team Deathmatch, Team Arena and Escort tags apply too.
+- **Pixel theme:** an 80s arcade on VHS. Pixel fonts, 16x16 pixel icons, a pixel-art Season 26SP6 wallpaper, scanlines, a VHS tracking band, and a fire with rising embers at the end of each page.
+- **Theme picker:** Settings > Appearance shows the theme you use. Click it to see every theme with a preview.
+- **Replay and Rounds tables follow the map:** kills, deaths, assists, damage, score and player status (alive, knocked down, dead) update as the map plays or you scrub, and end on the recorded totals. This works in every mode, Demolition included.
+- **Whole-match damage** (Team Arena, Team Deathmatch, Escort, Conquest): the Performance tab shows damage each way with every opponent, and by weapon or skill.
+- **Sortable profile tables:** sort Characters, Weapons and Maps by any column.
+- **Sync progress:** the sync pill fills up as replays are read, and the app's taskbar button shows the same progress.
+- **Push, block and hold time:** totals for Escort and Conquest in the profile's game stats.
+
+### Changed
+
+- **Team colours per theme:** Aesthetic, Futuristic and Pixel each have their own team colours (dusty blue and ochre, violet and amber, cyan and orange), used for wins and losses, bars, duels and the economy chart too. Standard keeps green and red.
+- **Demolition modes** share one filter chip that switches between Demolition, Challenge and Ranked, and remembers your pick.
+- **Discord status:** in any mode other than Demolition, a match shows **In Game** instead of a round and score.
+- **Profile:** shows your last 15 matches, and its mode and season filters carry over to the Matches page.
+- **Map pool:** Port Euler and Cosmite no longer list Ranked, the Demolition tutorial is listed on Area 88, and Euler Night Harbor and Ghannak are listed as Outbreak maps. Matches you've already played keep their mode.
+- **Performance tab:** KAST and headshot rate show one decimal, and first kills are gone from its header.
+- **Top weapons and characters:** the podium shows total damage, and keeps all three places, dimming the empty ones.
+- **Top weapons** highlights the body zone hit most, not always the head.
+- **Replay tab:** opens without waiting for the whole match to load, and the callouts switch sits on the map.
+
+### Fixed
+
+- **Character cards** keep their stats on one line, so every name sits at the same height.
+- **Uncommon tags** no longer wrap onto two lines in the Aesthetic and Futuristic themes.
+- **Round counts** say "1 round" instead of "1 rounds".
+- **The scoreboard's sorted column** stays highlighted through your own row and the row you hover.
+
+### Note
+
+- Your matches are read again once the first time you open 0.4.2, for Conquest and the tables that follow the map. It can take a few minutes, and the app stays usable while it runs.
+
 ## 0.4.1: Lawine's Stealth Master, character names and steadier panels
 
 ### New
